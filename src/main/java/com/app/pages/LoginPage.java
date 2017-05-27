@@ -16,7 +16,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class LoginPage {
-	WebDriver driver;
+	public WebDriver driver;
 	
 	@FindBy(css = "input[id='username']")
 	WebElement username;
